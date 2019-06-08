@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage  Title="Authorization" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Tricker.Pages.AuthorizationPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="Android">0,0,0,0</On>
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <Grid BackgroundColor="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Margin="0,20,0,0">
+                <StackLayout >
+                    <Image Source="tricker_logo.png"  HeightRequest="50"  WidthRequest="50" VerticalOptions="End" />
+                    <Label Text="Sign up to help our world"  HorizontalOptions="Center" Grid.Row="4" Margin="0,10,0,0" FontSize="18" FontAttributes="Bold"/>
+                </StackLayout>
+            </Grid>
+
+            <Grid Grid.Row="1" Margin="20,70,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackLayout Orientation="Vertical" Spacing="6">
+                    <Entry x:Name="Email" Text="{Binding Email}" Placeholder="Email" PlaceholderColor="#bababa"
+                           HeightRequest="50"   
+                           Keyboard="Email"  
+                           TextColor="Black"  Grid.Row="1"/>
+                    <Entry x:Name="FullName" Text="{Binding FullName}" Placeholder="Full Name" PlaceholderColor="#bababa"
+                           HeightRequest="50"   
+                           IsPassword="True"  
+                           TextColor="Black"  Grid.Row="2"/>
+                    <Entry x:Name="Login" Text="{Binding Login}" Placeholder="Login" PlaceholderColor="#bababa"
+                           HeightRequest="50"   
+                           IsPassword="True"  
+                           TextColor="Black"  Grid.Row="3"/>
+                    <Entry x:Name="Password" Text="{Binding Password}" Placeholder="Password" PlaceholderColor="#bababa"
+                           HeightRequest="50"   
+                           IsPassword="True"  
+                           TextColor="Black"  Grid.Row="4"/>
+                    <Button Clicked="toLogin_Clicked" Text="Sign Up" Margin="60,20,60,0" TextColor="White"  
+                    FontAttributes="Bold" BackgroundColor="#3897F0" HeightRequest="50" WidthRequest="100" VerticalOptions="Start" Grid.Row="3" />
+                    <Label Text="Go to our world"  HorizontalOptions="Center" Grid.Row="4" Margin="0,10,0,0" FontSize="12" />
+                </StackLayout>
+
+            </Grid>
+            <StackLayout Grid.Row="2" BackgroundColor="#FFFFFF">
+                <Button x:Name="Go" Clicked="Terms_Clicked"  BackgroundColor="Transparent" Text="By signing up, you agree to our rules" VerticalOptions="FillAndExpand" TextColor="#485992"  />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

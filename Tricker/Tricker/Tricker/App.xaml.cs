@@ -1,7 +1,10 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Tricker.Views;
+using FreshMvvm;
+using Tricker.Helpers;
+using Tricker.PageModels;
+using Tricker.Pages;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Tricker
@@ -15,8 +18,19 @@ namespace Tricker
             #if DEBUG
             LiveReload.Init();
             #endif
+            var tabs = new FreshTabbedNavigationContainer("TrickerTabs");
 
-            MainPage = new NavigationPage(new LoginPage());
+            tabs.AddTab<HomePageModel>("Home", "me.png");
+            tabs.AddTab<MapPageModel>("Map", "start.png");
+            tabs.AddTab<PhotoPageModel>("Photo", "myplan.png");
+            tabs.AddTab<ChatPageModel>("Chat", "friends.png");
+            tabs.AddTab<AccountPageModel>("Account", "me.png");
+
+            // Set the selected tab to the middle one.
+            tabs.SwitchSelectedRootPageModel<AccountPageModel>();
+
+            MainPage = tabs;
+            //MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

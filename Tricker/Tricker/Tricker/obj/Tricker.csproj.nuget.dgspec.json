@@ -44,6 +44,22 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "CarouselView.FormsPlugin": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Corcav.Behaviors": {
+              "target": "Package",
+              "version": "[2.3.7, )"
+            },
+            "FormsToolkit": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "FreshMvvm": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -54,9 +70,69 @@
               "target": "Package",
               "version": "[12.0.2, )"
             },
+            "System.Diagnostics.Debug": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Globalization": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reactive.Core": {
+              "target": "Package",
+              "version": "[4.1.5, )"
+            },
+            "System.Reactive.Interfaces": {
+              "target": "Package",
+              "version": "[4.1.5, )"
+            },
+            "System.Reactive.Linq": {
+              "target": "Package",
+              "version": "[4.1.5, )"
+            },
+            "System.Reactive.PlatformServices": {
+              "target": "Package",
+              "version": "[4.1.5, )"
+            },
+            "System.Resources.ResourceManager": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.Extensions": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Text.Encoding": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Xam.Behaviors": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xam.Plugin.Geolocator": {
+              "target": "Package",
+              "version": "[4.5.0.6, )"
+            },
             "Xamarin.Auth": {
               "target": "Package",
               "version": "[1.6.0.4, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.FFImageLoading": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.FFImageLoading.Transformations": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

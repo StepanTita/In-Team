@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyMetadata("MqttSessionId", "88d7f61e12cd")]
-[assembly: System.Reflection.AssemblyMetadata("MqttLocalHostAddress", "192.168.0.100")]
+[assembly: System.Reflection.AssemblyMetadata("MqttLocalHostAddress", "192.168.0.101")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tricker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
