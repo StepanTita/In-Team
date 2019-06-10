@@ -37,11 +37,7 @@
 #   public *;
 #}
 
--keepnames class com.facebook.messaging.analytics.reliability.ReliabilityInfo
--keepnames class com.facebook.messaging.analytics.reliability.ReliabilityInfo.Outcome
-
 -keepclassmembers class * implements java.io.Serializable {
-    static final long serialVersionUID;
     private static final java.io.ObjectStreamField[] serialPersistentFields;
     private void writeObject(java.io.ObjectOutputStream);
     private void readObject(java.io.ObjectInputStream);
@@ -52,4 +48,9 @@
 -keepnames class com.facebook.FacebookActivity
 -keepnames class com.facebook.CustomTabActivity
 
--keep class com.facebook.messenger.Messenger
+-keep class com.facebook.core.Core
+
+-keep public class com.android.vending.billing.IInAppBillingService {
+    public static com.android.vending.billing.IInAppBillingService asInterface(android.os.IBinder);
+    public android.os.Bundle getSkuDetails(int, java.lang.String, java.lang.String, android.os.Bundle);
+}

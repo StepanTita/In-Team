@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "08b9da74fb98f30b587cfb1ddd3a8ba2953933b0"
+    "signature": "20cdb0a986bf91380d41d19ff189245df235652c"
   },
   "compilationOptions": {},
   "targets": {
@@ -17,25 +17,25 @@
           "Newtonsoft.Json": "12.0.2",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Globalization": "4.3.0",
-          "System.Reactive.Core": "4.1.5",
-          "System.Reactive.Interfaces": "4.1.5",
-          "System.Reactive.Linq": "4.1.5",
-          "System.Reactive.PlatformServices": "4.1.5",
+          "System.Reactive.Core": "4.2.0-preview.102",
+          "System.Reactive.Interfaces": "4.2.0-preview.102",
+          "System.Reactive.Linq": "4.2.0-preview.102",
+          "System.Reactive.PlatformServices": "4.2.0-preview.102",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime.Extensions": "4.3.1",
           "System.Text.Encoding": "4.3.0",
           "Xam.Behaviors": "1.0.1",
-          "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Auth": "1.6.0.4",
+          "Xam.Plugin.Geolocator": "4.6.0-beta",
+          "Xam.Plugins.Forms.ImageCircle": "3.1.1.1-beta",
+          "Xamarin.Auth": "1.7.0-alpha01",
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.FFImageLoading": "2.4.11.982",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Transformations": "2.4.11.982",
-          "Xamarin.Forms": "4.0.0.482894",
+          "Xamarin.Forms": "4.1.0.483098-pre1",
           "Xamarin.Forms.GoogleMaps": "3.2.0",
-          "Xamarin.Forms.Maps": "4.0.0.482894",
-          "Xamarin.LiveReload": "0.3.27",
-          "Mono.Android": "0.0.0.0"
+          "Xamarin.Forms.Maps": "4.1.0.483098-pre1",
+          "Xamarin.LiveReload": "0.3.27"
         },
         "runtime": {
           "Tricker.dll": {}
@@ -51,7 +51,7 @@
       },
       "Corcav.Behaviors/2.3.7": {
         "dependencies": {
-          "Xamarin.Forms": "4.0.0.482894"
+          "Xamarin.Forms": "4.1.0.483098-pre1"
         },
         "runtime": {
           "lib/Corcav.Behaviors.dll": {
@@ -63,7 +63,7 @@
       "FormsToolkit/2.0.1": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "Xamarin.Forms": "4.0.0.482894"
+          "Xamarin.Forms": "4.1.0.483098-pre1"
         },
         "runtime": {
           "lib/netstandard1.0/FormsToolkit.dll": {
@@ -74,8 +74,8 @@
       },
       "FreshMvvm/3.0.0": {
         "dependencies": {
-          "System.Reactive": "4.1.5",
-          "Xamarin.Forms": "4.0.0.482894"
+          "System.Reactive": "4.2.0-preview.102",
+          "Xamarin.Forms": "4.1.0.483098-pre1"
         },
         "runtime": {
           "lib/netstandard2.0/FreshIOC.dll": {
@@ -98,7 +98,7 @@
         "runtime": {
           "lib/netstandard1.1/Merq.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.1.16.0"
+            "fileVersion": "1.1.17.0"
           }
         }
       },
@@ -181,7 +181,7 @@
         "dependencies": {
           "GitInfo": "2.0.1",
           "System.Diagnostics.Tracer": "2.0.8",
-          "System.Reactive": "4.1.5",
+          "System.Reactive": "4.2.0-preview.102",
           "System.Runtime.Serialization.Primitives": "4.1.1"
         },
         "runtime": {
@@ -199,21 +199,21 @@
           }
         }
       },
-      "System.Reactive/4.1.5": {
+      "System.Reactive/4.2.0-preview.102": {
         "dependencies": {
           "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
           "System.Threading.Tasks.Extensions": "4.5.2"
         },
         "runtime": {
           "lib/netstandard2.0/System.Reactive.dll": {
-            "assemblyVersion": "4.1.0.0",
-            "fileVersion": "4.1.5.357"
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.102"
           }
         }
       },
-      "System.Reactive.Core/4.1.5": {
+      "System.Reactive.Core/4.2.0-preview.102": {
         "dependencies": {
-          "System.Reactive": "4.1.5",
+          "System.Reactive": "4.2.0-preview.102",
           "System.Threading.Tasks.Extensions": "4.5.2"
         },
         "runtime": {
@@ -223,9 +223,9 @@
           }
         }
       },
-      "System.Reactive.Interfaces/4.1.5": {
+      "System.Reactive.Interfaces/4.2.0-preview.102": {
         "dependencies": {
-          "System.Reactive": "4.1.5",
+          "System.Reactive": "4.2.0-preview.102",
           "System.Threading.Tasks.Extensions": "4.5.2"
         },
         "runtime": {
@@ -235,9 +235,9 @@
           }
         }
       },
-      "System.Reactive.Linq/4.1.5": {
+      "System.Reactive.Linq/4.2.0-preview.102": {
         "dependencies": {
-          "System.Reactive": "4.1.5",
+          "System.Reactive": "4.2.0-preview.102",
           "System.Threading.Tasks.Extensions": "4.5.2"
         },
         "runtime": {
@@ -247,9 +247,9 @@
           }
         }
       },
-      "System.Reactive.PlatformServices/4.1.5": {
+      "System.Reactive.PlatformServices/4.2.0-preview.102": {
         "dependencies": {
-          "System.Reactive": "4.1.5",
+          "System.Reactive": "4.2.0-preview.102",
           "System.Threading.Tasks.Extensions": "4.5.2"
         },
         "runtime": {
@@ -367,7 +367,7 @@
       },
       "Xam.Behaviors/1.0.1": {
         "dependencies": {
-          "Xamarin.Forms": "4.0.0.482894"
+          "Xamarin.Forms": "4.1.0.483098-pre1"
         },
         "runtime": {
           "lib/netstandard2.0/Xam.Behaviors.dll": {
@@ -391,7 +391,7 @@
           }
         }
       },
-      "Xam.Plugin.Geolocator/4.5.0.6": {
+      "Xam.Plugin.Geolocator/4.6.0-beta": {
         "runtime": {
           "lib/netstandard2.0/Plugin.Geolocator.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -399,7 +399,18 @@
           }
         }
       },
-      "Xamarin.Auth/1.6.0.4": {
+      "Xam.Plugins.Forms.ImageCircle/3.1.1.1-beta": {
+        "dependencies": {
+          "Xamarin.Forms": "4.1.0.483098-pre1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Auth/1.7.0-alpha01": {
         "runtime": {
           "lib/netstandard1.6/Xamarin.Auth.dll": {
             "assemblyVersion": "1.6.0.1",
@@ -433,7 +444,7 @@
       "Xamarin.FFImageLoading.Forms/2.4.11.982": {
         "dependencies": {
           "Xamarin.FFImageLoading": "2.4.11.982",
-          "Xamarin.Forms": "4.0.0.482894"
+          "Xamarin.Forms": "4.1.0.483098-pre1"
         },
         "runtime": {
           "lib/netstandard1.0/FFImageLoading.Forms.dll": {
@@ -453,25 +464,25 @@
           }
         }
       },
-      "Xamarin.Forms/4.0.0.482894": {
+      "Xamarin.Forms/4.1.0.483098-pre1": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.0.0.139"
+            "fileVersion": "4.1.0.207"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.0.0.139"
+            "fileVersion": "4.1.0.207"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.0.0.139"
+            "fileVersion": "4.1.0.207"
           }
         }
       },
       "Xamarin.Forms.GoogleMaps/3.2.0": {
         "dependencies": {
-          "Xamarin.Forms": "4.0.0.482894"
+          "Xamarin.Forms": "4.1.0.483098-pre1"
         },
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {
@@ -480,14 +491,14 @@
           }
         }
       },
-      "Xamarin.Forms.Maps/4.0.0.482894": {
+      "Xamarin.Forms.Maps/4.1.0.483098-pre1": {
         "dependencies": {
-          "Xamarin.Forms": "4.0.0.482894"
+          "Xamarin.Forms": "4.1.0.483098-pre1"
         },
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.0.0.139"
+            "fileVersion": "4.1.0.207"
           }
         }
       },
@@ -497,7 +508,7 @@
           "Newtonsoft.Json": "12.0.2",
           "System.Net.Mqtt": "0.5.10-beta",
           "Xam.Plugin.DeviceInfo": "3.1.0",
-          "Xamarin.Forms": "4.0.0.482894"
+          "Xamarin.Forms": "4.1.0.483098-pre1"
         },
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Loader.dll": {
@@ -511,14 +522,6 @@
           "lib/netstandard2.0/Xamarin.Live.dll": {
             "assemblyVersion": "0.3.27.0",
             "fileVersion": "0.3.27.0"
-          }
-        }
-      },
-      "Mono.Android/0.0.0.0": {
-        "runtime": {
-          "Mono.Android.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
           }
         }
       }
@@ -568,7 +571,7 @@
     "Merq/1.0.0-rc": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gX8kGXFwdvl31avBSYks1ONgKPr/in+WnDkFOrchfoHJWsogkbl0eQrtUjBVa/26g5ucIF98hlH452PslFPT5A==",
+      "sha512": "sha512-3qDARqsMuBp2ATWuNlVu51gKieMKe8K9CWTRCjBynMgBpeSelFFjTRrXDUdTyuA8w3rbvUZEyrZ/OBAPwQzV9w==",
       "path": "merq/1.0.0-rc",
       "hashPath": "merq.1.0.0-rc.nupkg.sha512"
     },
@@ -663,40 +666,40 @@
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
-    "System.Reactive/4.1.5": {
+    "System.Reactive/4.2.0-preview.102": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-guil0zF8UboWgGaAxgD5LxL8ZGamrkSo/HLsROaUCAUlSrnBhz0McOGwY1CcnP00pvwt6q40EMs3ErhCOXsqfw==",
-      "path": "system.reactive/4.1.5",
-      "hashPath": "system.reactive.4.1.5.nupkg.sha512"
+      "sha512": "sha512-sUaC/H2GOR8vfG943v4avbTZfdXzR9s6rwB/PEvzKGRHGxDsYrNSH0d6TzrDR0tYvaOfPZezoKTZLhL/23DrDQ==",
+      "path": "system.reactive/4.2.0-preview.102",
+      "hashPath": "system.reactive.4.2.0-preview.102.nupkg.sha512"
     },
-    "System.Reactive.Core/4.1.5": {
+    "System.Reactive.Core/4.2.0-preview.102": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Gg0+fHrtJsKwpeZ919pvX5BEvH8B69rCRXq3X6by7pJdxIQ2csEVadI5aid15bJ7U7Wy069AZRszCm1jnBj+Xg==",
-      "path": "system.reactive.core/4.1.5",
-      "hashPath": "system.reactive.core.4.1.5.nupkg.sha512"
+      "sha512": "sha512-dmaPo9AKwHZ6Q99kakjjJu4zifUq2xlR7Pw6SwKDKS3ogsBQkGiFFrPjKVgCpOxrTxN/PBMfjsSFvPdnv6zzmA==",
+      "path": "system.reactive.core/4.2.0-preview.102",
+      "hashPath": "system.reactive.core.4.2.0-preview.102.nupkg.sha512"
     },
-    "System.Reactive.Interfaces/4.1.5": {
+    "System.Reactive.Interfaces/4.2.0-preview.102": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8WcVz2dxCHzbgbXdKfR3e/tLTQTqdRpnMbJNJqYHmepTnGeYxVTHKDKZdxQ54pNyTYpqGSc8xstN7kD5s2pXGQ==",
-      "path": "system.reactive.interfaces/4.1.5",
-      "hashPath": "system.reactive.interfaces.4.1.5.nupkg.sha512"
+      "sha512": "sha512-ayhlZSjr+MbR05cbzkogAkxUcsUGG2TwEBtQARyC6jb1ba+EXuykTvWcuSf9LLF0KZI4yQhGEwiGnQMc/nSbQA==",
+      "path": "system.reactive.interfaces/4.2.0-preview.102",
+      "hashPath": "system.reactive.interfaces.4.2.0-preview.102.nupkg.sha512"
     },
-    "System.Reactive.Linq/4.1.5": {
+    "System.Reactive.Linq/4.2.0-preview.102": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-i+wYDgCJZrYwAxWsKP9p4xr5nwP5g/x7Q2Viu4vigsYwdr21rEVyW81dBOwEdQ+hHUTyFbQwk4MZ5tdz2kO/TQ==",
-      "path": "system.reactive.linq/4.1.5",
-      "hashPath": "system.reactive.linq.4.1.5.nupkg.sha512"
+      "sha512": "sha512-bdTTdlTGY68VWNxd6exFAZukMcO4z+mUlBryAX2YJCj/sMgDbdMXqAgZs+pWeht/KLFrnxTqdex9spHOQnZE+g==",
+      "path": "system.reactive.linq/4.2.0-preview.102",
+      "hashPath": "system.reactive.linq.4.2.0-preview.102.nupkg.sha512"
     },
-    "System.Reactive.PlatformServices/4.1.5": {
+    "System.Reactive.PlatformServices/4.2.0-preview.102": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-H6ChykH3vZzXpO7+JYQvZQ24V/6FLR4JuXZ4WdEK93k3IaUA427REUnGE9X/HdgfMGDR1Vm+xoceoAzEki+gLg==",
-      "path": "system.reactive.platformservices/4.1.5",
-      "hashPath": "system.reactive.platformservices.4.1.5.nupkg.sha512"
+      "sha512": "sha512-S5DUffHjXx0DLKZbqkTUhY9R0c8zYDdLa4/IMnvU7AEOiD6Xfy5m4eGagZWDOVQAbWFhUbaYAGkerTCzY8K18A==",
+      "path": "system.reactive.platformservices/4.2.0-preview.102",
+      "hashPath": "system.reactive.platformservices.4.2.0-preview.102.nupkg.sha512"
     },
     "System.Reflection/4.3.0": {
       "type": "package",
@@ -796,19 +799,26 @@
       "path": "xam.plugin.deviceinfo/3.1.0",
       "hashPath": "xam.plugin.deviceinfo.3.1.0.nupkg.sha512"
     },
-    "Xam.Plugin.Geolocator/4.5.0.6": {
+    "Xam.Plugin.Geolocator/4.6.0-beta": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ro7peBDxsDXPc7J7yLx0ekAcXIfVTAXj/rXiBKiTgZ4Lm7KZJIU8PXOCcI4JztzT3MQrL8Rmka48il/ix0pwoA==",
-      "path": "xam.plugin.geolocator/4.5.0.6",
-      "hashPath": "xam.plugin.geolocator.4.5.0.6.nupkg.sha512"
+      "sha512": "sha512-hR8b7//8ECastYxcwdvFN+TJ9fxwOHpFA0zqHMmcrX7uPeV1gxaME1ahE77hOnI/WpI8g4f4p/O7XC5B8vr1VQ==",
+      "path": "xam.plugin.geolocator/4.6.0-beta",
+      "hashPath": "xam.plugin.geolocator.4.6.0-beta.nupkg.sha512"
     },
-    "Xamarin.Auth/1.6.0.4": {
+    "Xam.Plugins.Forms.ImageCircle/3.1.1.1-beta": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nruIDKXLkg5FJ5nbckWKVAlLB07Pq+7g3Iw9EUlnxz4QD2+XY5ravmVz4LUdwcF708GNSAqhgDabdSjHWK7BvA==",
-      "path": "xamarin.auth/1.6.0.4",
-      "hashPath": "xamarin.auth.1.6.0.4.nupkg.sha512"
+      "sha512": "sha512-E/r5CJm6gV2duE25pJEOEorkAS6xBcBoJ82zbJjynnKwIUPoPofDyO2pOec4DxqZoTulRtUVw62y2PjAfGh5bQ==",
+      "path": "xam.plugins.forms.imagecircle/3.1.1.1-beta",
+      "hashPath": "xam.plugins.forms.imagecircle.3.1.1.1-beta.nupkg.sha512"
+    },
+    "Xamarin.Auth/1.7.0-alpha01": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RNVKTsgLSR+m5+Z/yRcZ5zuHFcSG/N48JEqgwWiYxUnvSpWWi2lds4Bsl/bfVxETQ6pXFslEftbqAW3ATDVFcg==",
+      "path": "xamarin.auth/1.7.0-alpha01",
+      "hashPath": "xamarin.auth.1.7.0-alpha01.nupkg.sha512"
     },
     "Xamarin.Essentials/1.1.0": {
       "type": "package",
@@ -838,12 +848,12 @@
       "path": "xamarin.ffimageloading.transformations/2.4.11.982",
       "hashPath": "xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512"
     },
-    "Xamarin.Forms/4.0.0.482894": {
+    "Xamarin.Forms/4.1.0.483098-pre1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2K1/jCyor3CYYxEBMDMrIUhTOD0sxiipdmJTbj9NYBnV3iJKblnBRWPoi06Is4cSoXC7G6sWSuF2b6cYxigEjg==",
-      "path": "xamarin.forms/4.0.0.482894",
-      "hashPath": "xamarin.forms.4.0.0.482894.nupkg.sha512"
+      "sha512": "sha512-gRzlunZlC3CE+1jWTKOJSkxm+cqyL3r71IJgJc2ffnBB0dberQTN9Z2UlkpoxM5ZgBSzG/zxH90R3JZqcoKI1g==",
+      "path": "xamarin.forms/4.1.0.483098-pre1",
+      "hashPath": "xamarin.forms.4.1.0.483098-pre1.nupkg.sha512"
     },
     "Xamarin.Forms.GoogleMaps/3.2.0": {
       "type": "package",
@@ -852,12 +862,12 @@
       "path": "xamarin.forms.googlemaps/3.2.0",
       "hashPath": "xamarin.forms.googlemaps.3.2.0.nupkg.sha512"
     },
-    "Xamarin.Forms.Maps/4.0.0.482894": {
+    "Xamarin.Forms.Maps/4.1.0.483098-pre1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aiR2Gu8WK+IGKMAs7R4CDDSB05TPoC/P4OHkyKKIFVQgoSffMYvud/2Hw3jYtjwUazfxVzsLkzZlsqflHOzP8g==",
-      "path": "xamarin.forms.maps/4.0.0.482894",
-      "hashPath": "xamarin.forms.maps.4.0.0.482894.nupkg.sha512"
+      "sha512": "sha512-GdqPfPwWdBnDKOo4tkPUmSzBImax35ud3tE4qsukjJivLvww+ZCFsyIUk0EKeu7RuMtDLUF5+1EGX/bw4wOBPA==",
+      "path": "xamarin.forms.maps/4.1.0.483098-pre1",
+      "hashPath": "xamarin.forms.maps.4.1.0.483098-pre1.nupkg.sha512"
     },
     "Xamarin.LiveReload/0.3.27": {
       "type": "package",
@@ -865,11 +875,6 @@
       "sha512": "sha512-GtYHKpOVTgjZKxpuKt5lvs9vMnqXEmG2FabvYT21GMHvzMkOuaxTHUfF8EXN36Lep5jdUZahp1jYHsJnC2bpYg==",
       "path": "xamarin.livereload/0.3.27",
       "hashPath": "xamarin.livereload.0.3.27.nupkg.sha512"
-    },
-    "Mono.Android/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

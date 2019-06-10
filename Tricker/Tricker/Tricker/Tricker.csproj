@@ -23,24 +23,25 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="System.Diagnostics.Debug" Version="4.3.0" />
     <PackageReference Include="System.Globalization" Version="4.3.0" />
-    <PackageReference Include="System.Reactive.Core" Version="4.1.5" />
-    <PackageReference Include="System.Reactive.Interfaces" Version="4.1.5" />
-    <PackageReference Include="System.Reactive.Linq" Version="4.1.5" />
-    <PackageReference Include="System.Reactive.PlatformServices" Version="4.1.5" />
+    <PackageReference Include="System.Reactive.Core" Version="4.2.0-preview.102" />
+    <PackageReference Include="System.Reactive.Interfaces" Version="4.2.0-preview.102" />
+    <PackageReference Include="System.Reactive.Linq" Version="4.2.0-preview.102" />
+    <PackageReference Include="System.Reactive.PlatformServices" Version="4.2.0-preview.102" />
     <PackageReference Include="System.Resources.ResourceManager" Version="4.3.0" />
     <PackageReference Include="System.Runtime.Extensions" Version="4.3.1" />
     <PackageReference Include="System.Text.Encoding" Version="4.3.0" />
     <PackageReference Include="Xam.Behaviors" Version="1.0.1" />
-    <PackageReference Include="Xam.Plugin.Geolocator" Version="4.5.0.6" />
-    <PackageReference Include="Xamarin.Auth" Version="1.6.0.4" />
+    <PackageReference Include="Xam.Plugin.Geolocator" Version="4.6.0-beta" />
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.1.1.1-beta" />
+    <PackageReference Include="Xamarin.Auth" Version="1.7.0-alpha01" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
     <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.11.982" />
-    <PackageReference Include="Xamarin.Forms" Version="4.0.0.482894" />
+    <PackageReference Include="Xamarin.Forms" Version="4.1.0.483098-pre1" />
     <PackageReference Include="Xamarin.Forms.GoogleMaps" Version="3.2.0" />
-    <PackageReference Include="Xamarin.Forms.Maps" Version="4.0.0.482894" />
-    <PackageReference Include="Xamarin.LiveReload" Version="0.3.27" />  
+    <PackageReference Include="Xamarin.Forms.Maps" Version="4.1.0.483098-pre1" />
+    <PackageReference Include="xamarin.livereload" Version="0.3.27" />  
   </ItemGroup>
 
   <ItemGroup>
@@ -65,16 +66,24 @@
     <EmbeddedResource Update="Pages\MenuPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Pages\PersonalPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Pages\PhotoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\ProfilePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Pages\TermsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Services\" />
+    <EmbeddedResource Update="Styles\PersonalPageStyles\Colors.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Styles\PersonalPageStyles\Fonts.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>

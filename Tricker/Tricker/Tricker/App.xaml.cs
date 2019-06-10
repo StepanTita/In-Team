@@ -17,8 +17,8 @@ namespace Tricker
             InitializeComponent();
             #if DEBUG
             LiveReload.Init();
-            #endif
-            var tabs = new FreshTabbedNavigationContainer("TrickerTabs");
+#endif
+			/*var tabs = new FreshTabbedNavigationContainer("TrickerTabs");
 
             tabs.AddTab<HomePageModel>("Home", "me.png");
             tabs.AddTab<MapPageModel>("Map", "start.png");
@@ -29,9 +29,11 @@ namespace Tricker
             // Set the selected tab to the middle one.
             tabs.SwitchSelectedRootPageModel<AccountPageModel>();
 
-            MainPage = tabs;
-            //MainPage = new NavigationPage(new LoginPage());
-        }
+            MainPage = tabs;*/
+			//MainPage = new NavigationPage(new LoginPage());
+			//MainPage = new NavigationPage(new PersonalPage());
+			MainPage = new NavigationPage(new PersonalPage());
+		}
 
         protected override void OnStart()
         {

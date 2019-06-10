@@ -15,13 +15,15 @@ using FormsToolkit;
 using Android.Text.Style;
 using Android.Text;
 using FFImageLoading.Forms.Platform;
+using ImageCircle.Forms.Plugin.Droid;
 
 namespace Tricker.Droid
 {
     [Activity(Label = "Tricker", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
-        protected override void OnCreate(Bundle bundle)
+
+		protected override void OnCreate(Bundle bundle)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.ToolbarWithLogo;
@@ -33,8 +35,9 @@ namespace Tricker.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+			ImageCircleRenderer.Init();
 
-            LoadApplication(new App());
+			LoadApplication(new App());
 
             // Remove the logo when we're not on the main page.
             MessagingService.Current.Subscribe<bool>(Helpers.Constants.ChangeToolbar, (page, showImage) =>
@@ -46,5 +49,5 @@ namespace Tricker.Droid
                     ToolbarResource = Resource.Layout.Toolbar;
             });
         }
-    }
+	}
 }

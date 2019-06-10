@@ -129,6 +129,7 @@ class MonoPackageManager_Resources {
 		"FreshIOC.dll",
 		"FreshMvvm.dll",
 		"Google.ZXing.Core.dll",
+		"ImageCircle.Forms.Plugin.dll",
 		"Merq.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",

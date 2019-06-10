@@ -37,7 +37,11 @@
 #   public *;
 #}
 
+-keepnames class com.facebook.messaging.analytics.reliability.ReliabilityInfo
+-keepnames class com.facebook.messaging.analytics.reliability.ReliabilityInfo.Outcome
+
 -keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
     private static final java.io.ObjectStreamField[] serialPersistentFields;
     private void writeObject(java.io.ObjectOutputStream);
     private void readObject(java.io.ObjectInputStream);
@@ -48,4 +52,4 @@
 -keepnames class com.facebook.FacebookActivity
 -keepnames class com.facebook.CustomTabActivity
 
--keep class com.facebook.share.Share
+-keep class com.facebook.messenger.Messenger

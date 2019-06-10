@@ -24,7 +24,7 @@
     <activity android:label="Web Authenticator" android:name="md5538102cb7512c6dba0c04fe6c395414e.FormAuthenticatorActivity" />
     <activity android:label="Web Authenticator" android:name="md5538102cb7512c6dba0c04fe6c395414e.WebAuthenticatorActivity" />
     <activity android:label="@string/title_activity_webview" android:theme="@android:style/Theme.DeviceDefault" android:name="md5538102cb7512c6dba0c04fe6c395414e.WebViewActivity" />
-    <activity android:label="Web Authenticator Native Broswer" android:launchMode="singleTop" android:name="md5538102cb7512c6dba0c04fe6c395414e.WebAuthenticatorNativeBrowserActivity" />
+    <activity android:label="Web Authenticator Native Browser" android:launchMode="singleTop" android:name="md5538102cb7512c6dba0c04fe6c395414e.WebAuthenticatorNativeBrowserActivity" />
     <receiver android:name="md5538102cb7512c6dba0c04fe6c395414e.CustomTabsActionsBroadcastReceiver" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.BatteryBroadcastReceiver" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.EnergySaverBroadcastReceiver" />

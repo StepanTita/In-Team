@@ -16,12 +16,16 @@ namespace Tricker.Models
         public string Password { get; set; }
         public DateTime Birthday { get; set; }
         public string Type { get; set; }
-        public Photo Avatar { get; set; }
+        //public Photo Avatar { get; set; }
+		public string Picture { get; set; }
         public Statistics Statistics { get; set; }
         public List<Garbage> Garbages { get; set; }
         public List<Post> Posts { get; set; }
         public List<Chat> Chats { get; set; }
-        public User()
+		public List<Subscriber> Subscribers { get; set; }
+		public List<GalleryItem> Gallery { get; set; }
+
+		public User()
         {
             Id = 0;
             Login = null;
@@ -30,7 +34,7 @@ namespace Tricker.Models
             Password = null;
             Birthday = DateTime.UtcNow;
             Type = null;
-            Avatar = null;
+            Picture = null;
             Statistics = null;
             Garbages = null;
             Posts = null;

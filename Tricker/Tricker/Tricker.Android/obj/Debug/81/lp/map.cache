@@ -16,6 +16,7 @@ FormsViewGroup
 FreshIOC
 FreshMvvm
 Google.ZXing.Core
+ImageCircle.Forms.Plugin
 Merq
 Newtonsoft.Json
 Plugin.CurrentActivity
@@ -31,6 +32,7 @@ System.Reactive.Interfaces
 System.Reactive.Linq
 System.Reactive.PlatformServices
 System.Runtime
+Tricker
 Xam.Behaviors
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
@@ -77,7 +79,6 @@ Xamarin.GooglePlayServices.Maps
 Xamarin.GooglePlayServices.Tasks
 Xamarin.Live
 Xamarin.Live.Reload
-Tricker
 netstandard
 System.Collections
 System.Resources.ResourceManager

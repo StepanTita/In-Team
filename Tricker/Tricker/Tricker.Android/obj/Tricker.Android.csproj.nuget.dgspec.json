@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\artik\\source\\repos\\Tricker\\Tricker\\Tricker.Android\\Tricker.Android.csproj": {}
+    "C:\\Users\\stepa\\source\\repos\\In-Team\\Tricker\\Tricker\\Tricker.Android\\Tricker.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\artik\\source\\repos\\Tricker\\Tricker\\Tricker.Android\\Tricker.Android.csproj": {
+    "C:\\Users\\stepa\\source\\repos\\In-Team\\Tricker\\Tricker\\Tricker.Android\\Tricker.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\artik\\source\\repos\\Tricker\\Tricker\\Tricker.Android\\Tricker.Android.csproj",
+        "projectUniqueName": "C:\\Users\\stepa\\source\\repos\\In-Team\\Tricker\\Tricker\\Tricker.Android\\Tricker.Android.csproj",
         "projectName": "Tricker.Android",
-        "projectPath": "C:\\Users\\artik\\source\\repos\\Tricker\\Tricker\\Tricker.Android\\Tricker.Android.csproj",
-        "packagesPath": "C:\\Users\\artik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\artik\\source\\repos\\Tricker\\Tricker\\Tricker.Android\\obj\\",
+        "projectPath": "C:\\Users\\stepa\\source\\repos\\In-Team\\Tricker\\Tricker\\Tricker.Android\\Tricker.Android.csproj",
+        "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stepa\\source\\repos\\In-Team\\Tricker\\Tricker\\Tricker.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\artik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stepa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -33,8 +33,8 @@
         "frameworks": {
           "monoandroid81": {
             "projectReferences": {
-              "C:\\Users\\artik\\source\\repos\\Tricker\\Tricker\\Tricker\\Tricker.csproj": {
-                "projectPath": "C:\\Users\\artik\\source\\repos\\Tricker\\Tricker\\Tricker\\Tricker.csproj"
+              "C:\\Users\\stepa\\source\\repos\\In-Team\\Tricker\\Tricker\\Tricker\\Tricker.csproj": {
+                "projectPath": "C:\\Users\\stepa\\source\\repos\\In-Team\\Tricker\\Tricker\\Tricker\\Tricker.csproj"
               }
             }
           }
@@ -73,19 +73,19 @@
             },
             "System.Reactive.Core": {
               "target": "Package",
-              "version": "[4.1.5, )"
+              "version": "[4.2.0-preview.102, )"
             },
             "System.Reactive.Interfaces": {
               "target": "Package",
-              "version": "[4.1.5, )"
+              "version": "[4.2.0-preview.102, )"
             },
             "System.Reactive.Linq": {
               "target": "Package",
-              "version": "[4.1.5, )"
+              "version": "[4.2.0-preview.102, )"
             },
             "System.Reactive.PlatformServices": {
               "target": "Package",
-              "version": "[4.1.5, )"
+              "version": "[4.2.0-preview.102, )"
             },
             "System.Resources.ResourceManager": {
               "target": "Package",
@@ -105,7 +105,11 @@
             },
             "Xam.Plugin.Geolocator": {
               "target": "Package",
-              "version": "[4.5.0.6, )"
+              "version": "[4.6.0-beta, )"
+            },
+            "Xam.Plugins.Forms.ImageCircle": {
+              "target": "Package",
+              "version": "[3.0.0.5, )"
             },
             "Xamarin.Android.Support.Annotations": {
               "target": "Package",
@@ -137,7 +141,7 @@
             },
             "Xamarin.Auth": {
               "target": "Package",
-              "version": "[1.6.0.4, )"
+              "version": "[1.7.0-alpha01, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -161,7 +165,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.0.0.482894, )"
+              "version": "[4.1.0.483098-pre1, )"
             },
             "Xamarin.Forms.GoogleMaps": {
               "target": "Package",
@@ -169,7 +173,7 @@
             },
             "Xamarin.Forms.Maps": {
               "target": "Package",
-              "version": "[4.0.0.482894, )"
+              "version": "[4.1.0.483098-pre1, )"
             },
             "Xamarin.LiveReload": {
               "target": "Package",
@@ -179,21 +183,21 @@
         }
       }
     },
-    "C:\\Users\\artik\\source\\repos\\Tricker\\Tricker\\Tricker\\Tricker.csproj": {
+    "C:\\Users\\stepa\\source\\repos\\In-Team\\Tricker\\Tricker\\Tricker\\Tricker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\artik\\source\\repos\\Tricker\\Tricker\\Tricker\\Tricker.csproj",
+        "projectUniqueName": "C:\\Users\\stepa\\source\\repos\\In-Team\\Tricker\\Tricker\\Tricker\\Tricker.csproj",
         "projectName": "Tricker",
-        "projectPath": "C:\\Users\\artik\\source\\repos\\Tricker\\Tricker\\Tricker\\Tricker.csproj",
-        "packagesPath": "C:\\Users\\artik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\artik\\source\\repos\\Tricker\\Tricker\\Tricker\\obj\\",
+        "projectPath": "C:\\Users\\stepa\\source\\repos\\In-Team\\Tricker\\Tricker\\Tricker\\Tricker.csproj",
+        "packagesPath": "C:\\Users\\stepa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stepa\\source\\repos\\In-Team\\Tricker\\Tricker\\Tricker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\artik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stepa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -255,19 +259,19 @@
             },
             "System.Reactive.Core": {
               "target": "Package",
-              "version": "[4.1.5, )"
+              "version": "[4.2.0-preview.102, )"
             },
             "System.Reactive.Interfaces": {
               "target": "Package",
-              "version": "[4.1.5, )"
+              "version": "[4.2.0-preview.102, )"
             },
             "System.Reactive.Linq": {
               "target": "Package",
-              "version": "[4.1.5, )"
+              "version": "[4.2.0-preview.102, )"
             },
             "System.Reactive.PlatformServices": {
               "target": "Package",
-              "version": "[4.1.5, )"
+              "version": "[4.2.0-preview.102, )"
             },
             "System.Resources.ResourceManager": {
               "target": "Package",
@@ -287,11 +291,15 @@
             },
             "Xam.Plugin.Geolocator": {
               "target": "Package",
-              "version": "[4.5.0.6, )"
+              "version": "[4.6.0-beta, )"
+            },
+            "Xam.Plugins.Forms.ImageCircle": {
+              "target": "Package",
+              "version": "[3.1.1.1-beta, )"
             },
             "Xamarin.Auth": {
               "target": "Package",
-              "version": "[1.6.0.4, )"
+              "version": "[1.7.0-alpha01, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -311,7 +319,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.0.0.482894, )"
+              "version": "[4.1.0.483098-pre1, )"
             },
             "Xamarin.Forms.GoogleMaps": {
               "target": "Package",
@@ -319,9 +327,9 @@
             },
             "Xamarin.Forms.Maps": {
               "target": "Package",
-              "version": "[4.0.0.482894, )"
+              "version": "[4.1.0.483098-pre1, )"
             },
-            "Xamarin.LiveReload": {
+            "xamarin.livereload": {
               "target": "Package",
               "version": "[0.3.27, )"
             }

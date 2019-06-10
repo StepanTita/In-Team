@@ -30,7 +30,7 @@ namespace Tricker.Pages
 
         private void ActivateElements()
         {
-            Avatar.Source = CurrentUser.Avatar.URL;
+			Avatar.Source = CurrentUser.Picture;//Avatar.URL;
             UserName.Text = CurrentUser.Name;
             if (Avatar.Source.Equals(null))
             {
