@@ -20,7 +20,7 @@
     <PackageReference Include="Corcav.Behaviors" Version="2.3.7" />
     <PackageReference Include="FormsToolkit" Version="2.0.1" />
     <PackageReference Include="FreshMvvm" Version="3.0.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="System.Diagnostics.Debug" Version="4.3.0" />
     <PackageReference Include="System.Globalization" Version="4.3.0" />
     <PackageReference Include="System.Reactive.Core" Version="4.1.5" />
